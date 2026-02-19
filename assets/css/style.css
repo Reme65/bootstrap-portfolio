@@ -7,7 +7,6 @@
 
 /* global styles */
 
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
@@ -20,9 +19,22 @@ h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63; /* dark-blue */
 }
+
 .sharp-corners,
 .sharp-corners * {
     border-radius: 0;
+}
+
+/* Buttons */
+
+.custom-button {
+    background-color: #1f7798;
+    border: #1f7798
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a
 }
 
 /* About section */
@@ -36,6 +48,7 @@ h2 {
 #portfolio {
     background-color: #dbdcde; /* light grey */
 }
+
 #portfolio .card-title {
     color: #1f7798; /* mid blue */
     font-size: 1.2rem;
@@ -47,6 +60,7 @@ h2 {
 
 #portfolio .card-text {
     min-height: 120px;
+}
 
 /* Contact section */
 
@@ -64,6 +78,7 @@ h2 {
     min-height: 500px;
     padding: 5% 7%;
 }
+
 /* Media queries */
 
 /* Use Bootstrap breakpoint for XL screens */
